@@ -7,6 +7,17 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
+## Setup project
+
+- Clone branch to local server
+- Copy ".env.example" to ".env"
+- Fill ".env"
+- Execute command "composer install" from project root directory
+- Execute command "php artisan migrate" from project root directory
+- Execute command "php artisan serve" from project root directory
+- Go to http://127.0.0.1:8000/register
+
+
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
